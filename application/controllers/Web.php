@@ -18,4 +18,11 @@ $this->load->view('v_header', $data);
 $this->load->view('v_about', $data);
 $this->load->view('v_footer', $data);
 }
+public function contact()
+{
+$data['judul'] = "Halaman Kontak";
+$this->load->view('v_header', $data);
+$this->load->view('v_about', $data);
+$this->load->view('v_footer', $data);
+}
 }
